@@ -1,4 +1,5 @@
 # MyStore1
+My Store project shows some products to the customer to buy and add to his cart.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
