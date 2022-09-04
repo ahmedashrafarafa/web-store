@@ -4,6 +4,7 @@ import { CrudService } from 'src/app/service/crud.service';
 import { CartComponent } from '../cart/cart.component';
 import { ActivatedRoute, Route, Router } from '@angular/router';
 import { R3DeclareInjectorMetadata } from '@angular/compiler';
+import { HttpClientModule } from '@angular/common/http';
 //import ProductsData from './data.json';
 
 @Component({
@@ -14,6 +15,7 @@ import { R3DeclareInjectorMetadata } from '@angular/compiler';
 })
 export class ProductListComponent implements OnInit {
   //products: ProductService[] = ProductsData;
+  httpClient: HttpClientModule | undefined;
   crude: CrudService = new CrudService();
   products: ProductService[] = this.crude.product;
 

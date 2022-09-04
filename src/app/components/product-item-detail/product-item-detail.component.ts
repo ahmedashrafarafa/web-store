@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { CartService } from 'src/app/service/cart.service';
 import { CrudService } from 'src/app/service/crud.service';
 import { ProductService } from 'src/app/service/product.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-product-item-detail',

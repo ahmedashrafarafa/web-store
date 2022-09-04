@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ProductService } from 'src/app/service/product.service';
 import { ProductListComponent } from '../product-list/product-list.component';
 import { CrudService } from 'src/app/service/crud.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-cart',
